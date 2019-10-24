@@ -10,10 +10,12 @@ end
 
 def print_first_directors_movie_titles
   _db = directors_database
+  search_for_director = 
   row_index = 0
-  
  while row_index < _db.size do
     director = _db[row_index][:name]
+    
+    movies = _db[row_index][:name]
     row_index += 1
   end
 end
