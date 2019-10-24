@@ -14,7 +14,6 @@ def print_first_directors_movie_titles
   puts pretty_db[row_index]
 
  while row_index < pretty_db.size do
-  end
     row_index += 1
- end
+  end
 end
