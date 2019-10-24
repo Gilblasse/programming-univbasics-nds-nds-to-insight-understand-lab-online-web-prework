@@ -11,6 +11,7 @@ end
 def print_first_directors_movie_titles
   pretty_db = pp directors_database
   row_index = 0
+  puts pretty_db[row_index].class
   puts pretty_db[row_index]
 
  while row_index < pretty_db.size do
