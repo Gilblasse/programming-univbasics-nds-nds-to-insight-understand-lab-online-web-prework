@@ -11,6 +11,7 @@ end
 def print_first_directors_movie_titles
   _db = directors_database
   search_for_director = "Stephen Spielberg"
+  search_movie_info = "title"
   row_index = 0
   
  while row_index < _db.size do
