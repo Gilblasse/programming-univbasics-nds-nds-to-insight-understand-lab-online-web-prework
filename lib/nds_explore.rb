@@ -12,6 +12,7 @@ def print_first_directors_movie_titles
   _db = directors_database
   row_index = 0
   puts _db[row_index]
+  puts _db[row_index].class
 
  while row_index < _db.size do
     row_index += 1
