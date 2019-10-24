@@ -9,11 +9,11 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  pretty_db = pp directors_database
+  _db = directors_database
   row_index = 0
-  puts directors_database[0]
+  puts _db[row_index]
 
- while row_index < pretty_db.size do
+ while row_index < _db.size do
     row_index += 1
   end
 end
