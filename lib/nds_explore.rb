@@ -11,7 +11,7 @@ end
 def print_first_directors_movie_titles
   _db = directors_database
   search_for_director = "Stephen Spielberg"
-  search_movie_info = "title"
+  search_movie_info = :title
   row_index = 0
   
  while row_index < _db.size do
@@ -21,8 +21,8 @@ def print_first_directors_movie_titles
       movies_row_index = 0
       
       while movies_row_index < movies_array.size do
-        movie = movies_array[movies_row_index]
-        movie = 
+        movie = movies_array[movies_row_index][search_movie_info]
+        puts movie
         movies_row_index += 1
       end
       
